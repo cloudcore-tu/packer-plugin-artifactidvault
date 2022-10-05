@@ -19,6 +19,7 @@ jobs:
         uses: goreleaser/goreleaser-action@v3
         with:
           version: latest
-          args: relase --rm-dist
+          args: release --rm-dist
         env:
           API_VERSION: ${{ steps.plugin_description.outputs.api_version }}
+
