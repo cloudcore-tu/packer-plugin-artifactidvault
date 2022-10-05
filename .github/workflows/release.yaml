@@ -22,4 +22,5 @@ jobs:
           args: release --rm-dist
         env:
           API_VERSION: ${{ steps.plugin_description.outputs.api_version }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
