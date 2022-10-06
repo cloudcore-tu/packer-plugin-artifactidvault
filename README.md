@@ -10,7 +10,7 @@ This is packer plugin to store artifact ID.
 
 To install this plugin, copy following code into your `.pkr.hcl` file.
 
-```packer
+```hcl
 packer {
   required_plguins {
     artifactidvault = {
