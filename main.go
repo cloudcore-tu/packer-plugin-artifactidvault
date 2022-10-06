@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudcore/packer-plugin-artifactidvault/ssm"
+	"github.com/cloudcore/packer-plugin-artifactidvault/post-processor/ssm"
 	"github.com/hashicorp/packer-plugin-sdk/plugin"
 	"github.com/hashicorp/packer-plugin-sdk/version"
 )
