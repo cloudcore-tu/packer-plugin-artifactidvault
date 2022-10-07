@@ -18,11 +18,11 @@ type FlatConfig struct {
 	PackerOnError       *string           `mapstructure:"packer_on_error" cty:"packer_on_error" hcl:"packer_on_error"`
 	PackerUserVars      map[string]string `mapstructure:"packer_user_variables" cty:"packer_user_variables" hcl:"packer_user_variables"`
 	PackerSensitiveVars []string          `mapstructure:"packer_sensitive_variables" cty:"packer_sensitive_variables" hcl:"packer_sensitive_variables"`
-	ParameterName       *string           `mapstructure:"parameter-name" cty:"parameter-name" hcl:"parameter-name"`
+	ParameterName       *string           `mapstructure:"parameter-name" required:"true" cty:"parameter-name" hcl:"parameter-name"`
 	Encrypt             *bool             `mapstructure:"encrypt" cty:"encrypt" hcl:"encrypt"`
 	Region              *string           `mapstructure:"region" cty:"region" hcl:"region"`
 	Overwrite           *bool             `mapstructure:"overwrite" cty:"overwrite" hcl:"overwrite"`
-	Matcher             *string           `mapstructure:"matcher" cty:"matcher" hcl:"matcher"`
+	Matcher             *string           `mapstructure:"matcher" required:"true" cty:"matcher" hcl:"matcher"`
 }
 
 // FlatMapstructure returns a new FlatConfig.

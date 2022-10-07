@@ -1,13 +1,11 @@
 <!-- Code generated from the comments of the Config struct in post-processor/ssm/postprocessor.go; DO NOT EDIT MANUALLY -->
 
-- `parameter-name` (string) - Parameter Name
+- `encrypt` (bool) - Flag whether encryption is applied to the value.
+  If true, value type is SecureString, otherwise String.
 
-- `encrypt` (bool) - Encrypt
+- `region` (string) - Region where value is put
 
-- `region` (string) - Region
-
-- `overwrite` (bool) - Overwrite
-
-- `matcher` (string) - Matcher
+- `overwrite` (bool) - Flag where to overwrite
+  for more information, see [PutParameter AWS API docs](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_PutParameter.html#systemsmanager-PutParameter-request-Overwrite)
 
 <!-- End of code generated from the comments of the Config struct in post-processor/ssm/postprocessor.go; -->
