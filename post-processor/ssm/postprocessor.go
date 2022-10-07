@@ -31,11 +31,14 @@ type Config struct {
 	ParameterName string `mapstructure:"parameter-name" required:"true"`
 	// Flag whether encryption is applied to the value.
 	// If true, value type is SecureString, otherwise String.
+	// (default vault: false)
 	Encrypt bool `mapstructure:"encrypt"`
 	// Region where value is put
+	// (default value: default region)
 	Region string `mapstructure:"region"`
 	// Flag where to overwrite
-	// for more information, see [PutParameter AWS API docs](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_PutParameter.html#systemsmanager-PutParameter-request-Overwrite)
+	// for more information, see [PutParameter AWS API docs](https://docs.aws.amazon.com/systems-manager/latest/APIReference/API_PutParameter.html#systemsmanager-PutParameter-request-Overwrite).
+	// (default value: false)
 	Overwrite bool `mapstructure:"overwrite"`
 	// Configuration value for extracting string from artifact ID.
 	// use [regexp.FindString](https://pkg.go.dev/regexp#Regexp.FindString) to extract string that match specified regular expression.
