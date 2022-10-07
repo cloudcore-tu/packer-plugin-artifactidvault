@@ -32,6 +32,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [1.0.0]- 2022-10-05
+
+### Added
+
+- core code
+- editorconfig
+- lint workflow
+- test packer file
+- release workflow
+
 [unreleased]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v2.0.1...HEAD
 [2.0.1]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v1.0.0...v2.0.0
