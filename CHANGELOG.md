@@ -31,3 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add `required` annotation to `paramereter-name` & `matcher`
 
 ### Removed
+
+[Unreleased]:
+[2.0.1]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v1.0.0...v2.0.0
+[1.0.0]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/releases/tag/v1.0.0
