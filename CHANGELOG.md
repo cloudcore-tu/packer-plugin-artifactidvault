@@ -32,7 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-[unreleased]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v2.0.1...HEAD
 [2.0.1]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/cloudcore-tu/packer-plugin-artifactidvault/releases/tag/v1.0.0
